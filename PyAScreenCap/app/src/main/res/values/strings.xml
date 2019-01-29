@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PyAScreenCap</string>
+    <string name="tips">please input server ip and video w x h</string>
+    <string name="btn_recoder">MediaCodec+RTMP</string>
+</resources>
