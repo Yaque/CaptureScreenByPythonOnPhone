@@ -3,7 +3,8 @@
 
 ***
 ## 简介
-    本功能由Android端（APP） + 服务端（RTMP服务器软件） + python语言调用（直接使用opencv模块即可）
+
+本功能由Android端（APP） + 服务端（RTMP服务器软件） + python语言调用（直接使用opencv模块即可）
 
 ***
 ## 一、进行开发
@@ -35,8 +36,14 @@
          
 ***
 ##二、快速开始
-1.在一台电脑或其他计算机平台安装服务器软件
+1. 在一台电脑或其他计算机平台安装服务器软件
 
+    + 搭建服务端软件环境
+    
+        本系统需要服务器端支持
+        
+    注意：目前支持Windows系统
+    
 2. 在手机上安装此[Android APP](PyAScreenCap/app/release/app-release.apk)
 
     打开后如下图所示：
@@ -45,7 +52,22 @@
 
     输入相应的服务器地址（使用[RTMP](https://baike.baidu.com/item/rtmp/6113614?fr=aladdin) 协议）
 
-##三、联系
+##三、参考
+1. Android 端
+
+    + Android项目原型
+    
+        [MediaProjectionDemo](https://github.com/deepsadness/MediaProjectionDemo) by [deepsadness](https://github.com/deepsadness)
+
+2. 服务端
+    
+    + 服务端（直接使用）
+        
+        [nginx-rtmp-win32](https://github.com/illuspas/nginx-rtmp-win32) by [illuspas](https://github.com/illuspas)
+        
+    注意：理论上所有支持rtmp协议的视频流都可以被接收。
+***
+##四、联系
 1. 邮箱
 
     yaquepeng@outlook.com
